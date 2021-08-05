@@ -1,0 +1,99 @@
+.hidden {
+  display: none;
+}
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+header {
+  width: auto;
+  margin: auto;
+}
+#clock {
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#login-form {
+  text-align: center;
+}
+#login-box {
+  background-color: transparent;
+  margin-left: 4em;
+  height: 20px;
+  width: 25%;
+  font-size: 1em;
+  transition: background-color 1s;
+}
+#login-box:hover {
+  background-color: white;
+}
+#login-box::placeholder {
+  color: black;
+}
+#login-submit {
+  height: 1.7rem;
+}
+#greeting {
+  text-align: center;
+}
+
+#todo-form {
+  text-align: center;
+}
+#todo-box {
+  background-color: transparent;
+  width: 18%;
+  font-size: 1.2em;
+  transition: background-color 1s;
+}
+#todo-box:hover {
+  background-color: white;
+}
+#todo-box::placeholder {
+  color: black;
+}
+#todo-list {
+  padding-left: 550px;
+}
+li {
+  line-height: 2;
+  text-align: left;
+  text-shadow: 1px 1px 2px snow, 0 0 0.5em thistle;
+  font-weight: bolder;
+  list-style-type: circle;
+  list-style-position: inside;
+  color: black;
+  text-transform: capitalize;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+button {
+  background: transparent;
+  border: none;
+  padding: 3px 3px;
+  cursor: pointer;
+}
+
+#weather {
+  position: absolute;
+  float: left;
+  top: 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 50px;
+  font-size: 1.2em;
+  color: snow;
+}
